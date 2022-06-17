@@ -1,0 +1,30 @@
+name: jupyterlab
+channels:
+  - pyviz
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.8.10
+  - mamba_gator
+  - pyyaml
+  - black
+  - yapf
+  - jupyterlab
+  - xeus-cling
+  - conda-pack
+  - jupytext
+  - jupyterlab_code_formatter
+  - nodejs
+  - ipywidgets
+  - ipyvtklink
+  - pythreejs
+  - dvc[all]
+  - itkwidgets
+  - pyvista
+  - pyviz::panel=0.11.3
+  - bokeh
+  - jupyter_bokeh
+  - pyviz::holoviews
+  - pyviz::pyviz_comms
+  - matplotlib
